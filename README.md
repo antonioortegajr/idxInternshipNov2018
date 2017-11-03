@@ -5,7 +5,7 @@ Complete projects while learning modern web languages and syntaxes
 
 ## First Project
 
-Review git, [http://marksheet.io](HTML, CSS), JavaScript.
+Review git, [HTML, CSS](http://marksheet.io), JavaScript.
 * Use use the skill to make a website in github
 
 ## Second Project
