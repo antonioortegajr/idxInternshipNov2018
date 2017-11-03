@@ -1,4 +1,8 @@
 # first project
+
 ## about
-reviewing Javascript, HTML, CSS
+Reviewing Javascript, HTML, CSS
 https://github.com/DavijEllis/hello-world
+
+## New Tools Used
+Github, Slack, Atom
