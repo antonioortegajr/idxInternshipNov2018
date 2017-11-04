@@ -6,3 +6,5 @@ https://github.com/DavijEllis/hello-world
 
 ## New Tools Used
 Github, Slack, Atom
+
+Changed stuff
