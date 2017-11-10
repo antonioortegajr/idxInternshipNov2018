@@ -6,7 +6,7 @@ Complete projects while learning modern web languages and syntaxes
 ## First Project
 
 Review git, [HTML, CSS](http://marksheet.io), JavaScript.
-* Use use the skill to make a website in github
+* Use the skill to make a website in github
 
 ## Second Project
 * Use these skills to make parse JSON response in NodeJs.
