@@ -40,19 +40,23 @@
           <br />
 
 
+<div id="myImg">
+    <img id="me" src="img/picture.jpeg"/>
+</div>
 
-          <img id="me" src="img/picture.jpeg"/>
         </li>
       </ul>
     </div>
     <button onclick="picChange()">Suprise</button>
+
     <div class="footer">
 
     </div>
     <script>
     function picChange() {
     var imgOne = "https://media2.giphy.com/media/vFKqnCdLPNOKc/giphy.gif";
-    document.getElementById("me").src= imgOne;
+    //document.getElementById("me").src= imgOne;
+    document.getElementById("myImg").innerHTML='<img id="me" src="'+imgOne+'"/>';
   }
 
 
