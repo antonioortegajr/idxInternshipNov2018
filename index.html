@@ -41,12 +41,22 @@
 
 
 
-          <img src="img/picture.jpeg"/>
+          <img id="me" src="img/picture.jpeg"/>
         </li>
       </ul>
     </div>
+    <button onclick="picChange()">Suprise</button>
     <div class="footer">
 
     </div>
+    <script>
+    function picChange() {
+    var imgOne = "https://media2.giphy.com/media/vFKqnCdLPNOKc/giphy.gif";
+    document.getElementById("me").src= imgOne;
+  }
+
+
+
+    </script>
   </body>
 </html>
