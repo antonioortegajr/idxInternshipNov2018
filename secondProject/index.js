@@ -9,5 +9,5 @@ for (i = 0; i < example.length; i++) {
     console.log(example[i]['name']);
     console.log(example[i]['categories']);
   }
-  
+
 }
