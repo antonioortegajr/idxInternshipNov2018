@@ -1,6 +1,33 @@
 <!DOCTYPE html>
 <html>
   <head>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+     function submitToAPI() {
+       var URL = 'https://hmmp1alglj.execute-api.us-west-2.amazonaws.com/temp/mail';
+       var data = {
+         name: $('#name-input').val(),
+         email: $('#email-input').val(),
+         description: $('#description-input').val()
+       };
+       $.ajax({
+         type: 'POST',
+         url: URL,
+         dataType: 'json',
+         contentType: 'application/json',
+         data: JSON.stringify(data),
+         success: function () {
+           // clear form and show a success message
+           alert('yay');
+         },
+         error: function () {
+           // show an error message
+           alert('boo');
+         }
+       });
+     }
+    </script>
     <meta charset="utf-8">
     <title>Ryan Ellis</title>
     <link rel="stylesheet" type="text/css" href="colorStuff.css">
@@ -31,7 +58,7 @@
         <li>
           7th place out of 800+ teams in Oregon's VEX EDR State Robotics Tournament.
           <li>
-            Student body vice president
+            Student body vice president.
           </li>
           <li>
             Always learning and open to any feedback.
@@ -40,13 +67,34 @@
           <br />
 
 
+<div id="myImg">
+    <img id="me" src="img/picture.jpeg"/>
+</div>
 
-          <img src="img/picture.jpeg"/>
         </li>
       </ul>
     </div>
+    <button onclick="picChange()">Suprise</button>
+
+    <form id="contact-form">
+     <label for="name-input">Name:</label>
+     <input type="text" id="name-input" placeholder="name here…" />
+     <label for="email-input">Email:</label>
+     <input type="email" id="email-input" placeholder="email here…"/>
+     <label for="description-input">How can we help you?</label>
+     <textarea id="description-input" rows="3" placeholder="tell us…"></textarea>
+     <button type="button" onClick="submitToAPI()">Submit</button>
+   </form>
+
     <div class="footer">
 
     </div>
+    <script>
+    function picChange() {
+    var imgOne = "https://media2.giphy.com/media/vFKqnCdLPNOKc/giphy.gif";
+    //document.getElementById("me").src= imgOne;
+    document.getElementById("myImg").innerHTML='<img id="me" src="'+imgOne+'"/>';
+  }
+    </script>
   </body>
 </html>
