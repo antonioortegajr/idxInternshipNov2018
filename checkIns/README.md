@@ -12,9 +12,6 @@ Started CSS,
 Learned GitHub,
 Learned how to deal with issues on GitHub,
 Using Slack app.
-
-### Overall day
-
 Started in the IDX company,
 Met the staff,
 Got assigned a workspace,
@@ -23,3 +20,19 @@ Programmed a small webpage,
 Talked about image code issue over coffee,
 Resolved an issue through GitHub,
 Ended the day.
+
+## November 17th 2017
+
+Started JS
+Updated website with better info, more styling
+DOM rewrite for image
+Finished first project; website (further edits on Ryan)
+Met more staff
+
+## November 24th 2017 (IDX closed for Thanksgiving)
+
+## December 1st 2017
+
+Arrived to coffee orders
+Got coffee for co-workers
+Met most co-workers by now
