@@ -5,8 +5,14 @@ var example = JSON.parse(sample);
 for (i = 0; i < example.length; i++) {
 
 function loggin(){
-    console.log(example[i]['name']);
-    console.log(example[i]['categories']);
+    //console.log(example[i]['name']);
+    var widgets = example[i]['categories'][0][5];
+    if (widgets) {
+      console.log("true");
+    }
+    else {
+      console.log("false");
+    }
   }
 
   //Not display objects with too low of confidence, not reliable data
