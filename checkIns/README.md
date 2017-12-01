@@ -37,6 +37,7 @@ Arrived to coffee orders,
 Got coffee for co-workers,
 Met most co-workers by now including boss man,
 Started third project to use skills to create CSV mapping application.
-Got info from stakeholder.
+Got info from stakeholder,
+Purchased domain "ryandellis.com" from Google Domains for website.
 
 ## December 8th 2017
