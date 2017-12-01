@@ -4,10 +4,14 @@ var example = JSON.parse(sample);
 //loop through each object in the JSON
 for (i = 0; i < example.length; i++) {
 
-  //Not display objects with too low of confidence, not reliable data
-  if (example[i]['confidence'] > 50) {
+function loggin(){
     console.log(example[i]['name']);
     console.log(example[i]['categories']);
+  }
+
+  //Not display objects with too low of confidence, not reliable data
+  if (example[i]['confidence'] > 50) {
+  loggin();
   }
 
 }
