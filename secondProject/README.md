@@ -22,5 +22,5 @@ We will be using the NPM package: https://www.npmjs.com/package/@wappalyzer/wapp
     * Marketing Automation
     * Live Chat
     * JavaScript Frameworks
-    
+
  * Create report of values from return in CSV
