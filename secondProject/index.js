@@ -5,16 +5,28 @@ var example = JSON.parse(sample);
 for (i = 0; i < example.length; i++) {
 
 function loggin(){
-    //console.log(example[i]['name']);
     var widgets = example[i]['categories'][0][5];
-    if (widgets) {
-      console.log("true");
+    var cms = example[i]['categories'][0][1];
+    var analytics = example[i]['categories'][0][10];
+    var tagManager = example[i]['categories'][0][42];
+    var webFrameworks = example[i]['categories'][0][18];
+    var webServers = example[i]['categories'][0][22];
+    var programmingLang = example[i]['categories'][0][27];
+    var JSGraphics = example[i]['categories'][0][25];
+    var blogs = example[i]['categories'][0][11];
+    var marketingAutomation = example[i]['categories'][0][32];
+    var liveChat = example[i]['categories'][0][52];
+    var JSFrameworks = example[i]['categories'][0][12];
+
+    if (widgets || cms || analytics || tagManager || webFrameworks || webServers || programmingLang || JSGraphics || blogs || marketingAutomation || liveChat || JSFrameworks)
+    {
+      console.log(example[i]["name"]);
     }
+
     else {
       console.log("false");
     }
   }
-
   //Not display objects with too low of confidence, not reliable data
   if (example[i]['confidence'] > 50) {
   loggin();
