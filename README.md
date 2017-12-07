@@ -11,6 +11,9 @@ Review git, [HTML, CSS](http://marksheet.io), [JavaScript] (http://www.learn-js.
 * Used AWS to receive emails from website (ryandellis.com)
 
 
+* Purchased domain (ryandellis.com) and linked webpage from Github to domain
+* Used AWS to receive emails from website (ryandellis.com)
+
 ## Second Project
 * Use these skills to make parse JSON response in NodeJs
 * Parsed sample JSON to output values
