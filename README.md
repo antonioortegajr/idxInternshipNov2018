@@ -7,11 +7,9 @@ Complete projects while learning modern web languages and syntaxes
 
 Review git, [HTML, CSS](http://marksheet.io), [JavaScript] (http://www.learn-js.org/).
 * Use the skill to make a website in Github
-<<<<<<< master
 * Purchased domain (ryandellis.com) and linked webpage from Github to domain
 * Used AWS to receive emails from website (ryandellis.com)
-=======
->>>>>>> master
+
 
 ## Second Project
 * Use these skills to make parse JSON response in NodeJs
